@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.alysson.mantvida2016" >
+    package="yuri.com.br.mant_vida_2016">
 
     <uses-permission android:name = "android.permission.RECEIVE_BOOT_COMPLETED"/>
     <uses-permission android:name = "android.permission.WRITE_EXTERNAL_STORAGE"/>
@@ -35,7 +35,7 @@
 
         <!-- Service -->
         <service  android:name=".PushNotificationService"
-                  android:enabled="true">
+            android:enabled="true">
             <intent-filter>
                 <action android:name="NOTIFICATION_INTENT"></action>
                 <category android:name="ANDROID.INTENT.CATEGORY.DEFAULT"></category>
@@ -49,10 +49,11 @@
             android:exported="false">
             <intent-filter>
                 <action android:name="ANDROID.INTENT.ACTION.BOOT_COMPLETED"></action>
-           </intent-filter>
+            </intent-filter>
 
         </receiver>
 
     </application>
+
 
 </manifest>

@@ -3,8 +3,9 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.1"
+
     defaultConfig {
-        applicationId 'br.com.yuri.mantvida'
+        applicationId "yuri.com.br.mant_vida_2016"
         minSdkVersion 14
         targetSdkVersion 23
         versionCode 15
@@ -22,11 +23,10 @@ android {
     }
 
 
-        packagingOptions{
-            exclude 'classes.dex'
-            exclude 'META-INF/LICENSE.txt'
-        }
-
+    packagingOptions{
+        exclude 'classes.dex'
+        exclude 'META-INF/LICENSE.txt'
+    }
 }
 
 dependencies {
