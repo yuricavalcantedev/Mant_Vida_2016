@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.alysson.mantvida2016.Contato">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appBarLayout_settings"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tb_contact"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Siga-nos nas redes sociais!"
+                android:id="@+id/textView13"
+                android:layout_marginTop="72dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Facebook:"
+                android:id="@+id/textView14"
+                android:layout_marginTop="45dp"
+                android:layout_below="@+id/textView13"
+                android:layout_alignLeft="@+id/tv_linkFacebook"
+                android:layout_alignStart="@+id/tv_linkFacebook" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="facebook.com/IcantMarabaOficial/"
+                android:id="@+id/tv_linkFacebook"
+                android:autoLink="all"
+                android:clickable="true"
+                android:layout_below="@+id/textView14"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Twitter"
+                android:layout_below="@id/tv_linkFacebook"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView15"
+                android:layout_centerVertical="true"
+                android:layout_alignLeft="@+id/tv_linkFacebook"
+                android:layout_alignStart="@+id/tv_linkFacebook" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="twitter.com/icantmaraba"
+                android:id="@+id/tv_linkTwitter"
+                android:autoLink="all"
+                android:clickable="true"
+                android:layout_below="@+id/textView15"
+                android:layout_alignLeft="@+id/textView15"
+                android:layout_alignStart="@+id/textView15" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Instagram"
+                android:id="@+id/textView16"
+                android:layout_below="@+id/tv_linkTwitter"
+                android:layout_marginTop="10dp"
+                android:layout_centerVertical="true"
+                android:layout_alignLeft="@+id/tv_linkTwitter"
+                android:layout_alignStart="@+id/tv_linkTwitter" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="instagram.com/icantmaraba/"
+                android:id="@+id/textView17"
+                android:autoLink="all"
+                android:clickable="true"
+                android:layout_below="@+id/textView16"
+                android:layout_alignLeft="@+id/textView16"
+                android:layout_alignStart="@+id/textView16" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Flickr"
+                android:id="@+id/textView18"
+                android:layout_below="@+id/textView17"
+                android:layout_alignLeft="@+id/textView17"
+                android:layout_alignStart="@+id/textView17"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="flickr.com/photos/icantmaraba"
+                android:id="@+id/textView19"
+                android:autoLink="all"
+                android:clickable="true"
+                android:layout_below="@+id/textView18"
+                android:layout_alignLeft="@+id/textView18"
+                android:layout_alignStart="@+id/textView18" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Contate-nos via Whatsapp"
+                android:id="@+id/textView20"
+                android:layout_marginTop="39dp"
+                android:layout_below="@+id/textView19"
+                android:layout_alignLeft="@+id/textView13"
+                android:layout_alignStart="@+id/textView13" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="+55 94 8160-0023"
+                android:id="@+id/textView21"
+                android:layout_below="@+id/textView20"
+                android:layout_alignLeft="@+id/textView20"
+                android:layout_alignStart="@+id/textView20" />
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

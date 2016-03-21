@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Alysson\AndroidStudioProjects\MantVida2016\app\libs\commons-email-1.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3b3c527990f7f288a3a9b23a8c7307bbf7e75965">
+        <dex dex="C:\Users\Alysson\AndroidStudioProjects\MantVida2016\app\build\intermediates\pre-dexed\debug\commons-email-1.4-4a40c2a9a7e695648a9ff7966b978c2a6b886dbd.jar" />
+    </item>
+
+</items>

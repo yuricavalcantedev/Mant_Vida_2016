@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_familia"     android:title="Família" />
+        <item android:id="@+id/nav_ministerio"  android:title="Ministério" />
+        <item android:id="@+id/nav_financas"    android:title="Finanças" />
+        <item android:id="@+id/nav_formacao"    android:title="Formação" />
+        <item android:id="@+id/nav_restituicao" android:title="Restituição" />
+    </group>
+
+    <item android:title="Menu Principal">
+        <menu>
+
+            <item android:id="@+id/nav_projetovida"          android:title="Projeto de Vida" />
+            <item android:id="@+id/nav_planoleitura"         android:title="Plano de Leitura" />
+            <item android:id="@+id/nav_gerarimpressao"       android:title="Gerar Impressão" />
+            <item android:id="@+id/nav_submenu_sobre"        android:title="Sobre"/>
+            <item android:id="@+id/nav_submenu_configuracao" android:title="Configurações"/>
+            <item android:id="@+id/nav_submenu_site"         android:title="Site"/>
+            <item android:id="@+id/nav_submenu_contato"      android:title="Contato"/>
+
+        </menu>
+
+
+    </item>
+
+</menu>

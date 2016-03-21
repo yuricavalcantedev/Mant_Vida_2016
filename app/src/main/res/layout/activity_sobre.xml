@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent" android:fitsSystemWindows="true"
+tools:context=".SobreActivity">
+
+<android.support.design.widget.AppBarLayout android:id="@+id/app_bar"
+    android:fitsSystemWindows="true" android:layout_height="@dimen/app_bar_height"
+    android:layout_width="match_parent" android:background="#DEDEDE">
+
+    <android.support.design.widget.CollapsingToolbarLayout android:id="@+id/toolbar_layout"
+        android:fitsSystemWindows="true" android:layout_width="match_parent"
+        android:layout_height="match_parent" app:layout_scrollFlags="scroll|exitUntilCollapsed"
+        app:contentScrim="?attr/colorPrimary"
+        app:title="MANT VIDA"
+        android:background="@drawable/lg_icant_200x150_gold">
+
+        <android.support.v7.widget.Toolbar android:id="@+id/toolbar_sobre"
+            android:layout_height="?attr/actionBarSize" android:layout_width="match_parent"
+            app:layout_collapseMode="pin" app:popupTheme="@style/AppTheme.PopupOverlay"
+            android:title="MANT VIDA"
+            android:subtitle="Sobre"/>
+
+    </android.support.design.widget.CollapsingToolbarLayout>
+
+</android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/activity_sobre" android:layout_width="match_parent"
+        android:layout_height="match_parent" tools:context=".SobreActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/id_tvSobre"
+                android:layout_margin="@dimen/text_margin" android:text="@string/large_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_below="@+id/id_tvSobre"
+                android:text="Apóstolos Valdemir e Margareth Carneiro"/>
+
+        </RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>
+

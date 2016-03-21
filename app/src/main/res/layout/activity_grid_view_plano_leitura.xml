@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="6dp"
+    android:paddingRight="6dp"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp"
+    tools:context=".MainActivity"
+    android:background="#B3E5FC"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/buttonPreviousCalendarMonth"
+            android:src="@drawable/ic_chevron_left_black_24dp"/>
+
+        <TextView
+           android:id="@+id/tv_tituloCalendar"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerVertical="true"
+           android:layout_toEndOf="@+id/buttonPreviousCalendarMonth"
+           android:layout_toRightOf="@+id/buttonPreviousCalendarMonth"
+           android:layout_toStartOf="@+id/buttonNextCalendarMonth"
+            android:layout_toLeftOf="@+id/buttonNextCalendarMonth"
+           android:gravity="center"
+           android:textAppearance="@android:style/TextAppearance.Medium"
+           android:textColor="#222222"
+           android:textSize="20sp"
+            android:background="#FFFFFF"/>
+
+        <ImageButton android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonNextCalendarMonth"
+            android:src="@drawable/ic_chevron_right_black_24dp"
+            android:layout_alignTop="@+id/buttonPreviousCalendarMonth"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"/>
+
+   </RelativeLayout>
+
+    <GridView
+       android:numColumns="5"
+       android:gravity="center"
+       android:stretchMode="columnWidth"
+       android:paddingTop="6dp"
+       android:horizontalSpacing="1dp"
+       android:verticalSpacing="1dp"
+       android:layout_width="fill_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/grid"
+       android:layout_weight="1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"></View>
+
+    <!-- Layout da Parashá-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parashá da Semana :"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView9">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_parasha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parashá aqui"
+            android:textSize="15sp"
+            android:fontFamily="bold"
+            android:layout_below="@+id/textView9"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+    </RelativeLayout>
+
+</LinearLayout>
+

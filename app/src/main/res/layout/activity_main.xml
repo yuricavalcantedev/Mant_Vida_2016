@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_01">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_actMain_ProjetoVida"
+            android:background="@drawable/bt_projetodevida"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:onClick="callLifeProjectActivityMain"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_actMain_PlanoLeitura"
+            android:background="@drawable/bt_planodeleitura"
+            android:layout_marginTop="@dimen/margin_imgbts_main_top"
+            android:layout_below="@+id/bt_actMain_ProjetoVida"
+            android:layout_centerHorizontal="true"
+            android:onClick="callReadingPlainActivityMain"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_actMain_Sobre"
+            android:background="@drawable/bt_sobre"
+            android:layout_marginTop="@dimen/margin_imgbts_main_top"
+            android:layout_below="@+id/bt_actMain_PlanoLeitura"
+            android:layout_centerHorizontal="true"
+            android:onClick="callAboutActivityMain"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_actMain_Contatos"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/bt_contatos"
+            android:layout_marginLeft="@dimen/margin_imgbts_main_sides"
+            android:layout_marginStart="@dimen/margin_imgbts_main_sides"
+            android:layout_below="@+id/bt_actMain_Sobre"
+            android:onClick="callContactsActivityMain"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_actMain_Site"
+            android:background="@drawable/bt_site"
+            android:layout_marginRight="@dimen/margin_imgbts_main_sides"
+            android:layout_alignTop="@+id/bt_actMain_Config"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_toEndOf="@+id/bt_actMain_Config"
+            android:layout_toRightOf="@+id/bt_actMain_Config"
+            android:onClick="callSiteActivityMain"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_actMain_Config"
+            android:background="@drawable/bt_config"
+            android:layout_alignTop="@+id/bt_actMain_Contatos"
+            android:layout_centerHorizontal="true"
+            android:onClick="callSettingsActivityMain"/>
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

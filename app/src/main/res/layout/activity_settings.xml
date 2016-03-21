@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appBarLayout_settings"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tb_settings"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leitura Modo Noturno"
+        android:id="@+id/switch_reading"
+        android:textSize="30dp"
+        android:checked="false"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_below="@id/appBarLayout_settings"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Cor de fundo da leitura preto e o texto branco"
+        android:id="@+id/textView7"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/switch_reading"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Definições de Alerta para leitura diária"
+        android:id="@+id/textView22"
+        android:layout_below="@+id/textView7"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_marginTop="41dp"
+        android:visibility="visible" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:enabled="false"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:ems="10"
+        android:id="@+id/et_alarme1"
+        android:layout_below="@+id/textView22"
+        android:layout_alignLeft="@+id/textView22"
+        android:layout_alignStart="@+id/textView22"
+        android:visibility="visible" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:enabled="false"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:ems="10"
+        android:id="@+id/et_alarme2"
+        android:layout_below="@+id/et_alarme1"
+        android:layout_alignLeft="@+id/et_alarme1"
+        android:layout_alignStart="@+id/et_alarme1"
+        android:visibility="invisible" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alerta"
+        android:layout_marginLeft="2dp"
+        android:id="@+id/switch_alarme1"
+        android:layout_above="@+id/et_alarme2"
+        android:layout_toRightOf="@+id/et_alarme1"
+        android:layout_toEndOf="@+id/et_alarme1"
+        android:checked="false"
+        android:visibility="visible"
+        android:enabled="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alerta 2"
+        android:id="@+id/switch_alarme2"
+        android:layout_marginLeft="2dp"
+        android:layout_alignBottom="@+id/et_alarme2"
+        android:layout_toRightOf="@+id/et_alarme1"
+        android:layout_toEndOf="@+id/et_alarme1"
+        android:checked="false"
+        android:visibility="invisible" />
+
+</RelativeLayout>

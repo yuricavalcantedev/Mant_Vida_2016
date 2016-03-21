@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">MantVida</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_gridView_Plano_Leiutra">Plano de Leitura</string>
+    <string name="title_activity_fragment_pdv">fragment_pdv</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_recuperar_senha">RecuperarSenha</string>
+    <string name="title_activity_sobre">Sobre</string>
+     <string name="large_text">
+
+        "VIVENDO O SOBRENATURAL DE DEUS\n
+
+Bem vindos ao MANT VIDA. Uma maneira simples, rica e prazerosa de você elaborar e acompanhar seu PROJETO DE VIDA, e PLANO DE LEITURA BÍBLICA ANUAL, assim como os EVENTOS das nossas Igrejas.\n
+
+Em 2016 vamos levar você a uma atmosfera espiritual de andar sob a nuvem da promessa liberada por Adonai para aquele que se submeter a esse nível de fé e atitude.\n
+
+E com base na Palavra do Eterno  em Gênesis 26.1-6,12 é que iremos  nos mover para projetar, ou seja semear conforme a Bíblia, nossos projetos para 2016.\n
+
+“E havia fome na terra, além da primeira fome, que foi nos dias de Abraão; por isso foi Isaque a Abimeleque, rei dos filisteus, em Gerar.
+E apareceu-lhe o Senhor, e disse: Não desças ao Egito; habita na terra que eu te disser;
+Peregrina nesta terra, e serei contigo, e te abençoarei; porque a ti e à tua descendência darei todas estas terras, e confirmarei o juramento que tenho jurado a Abraão teu pai;
+E multiplicarei a tua descendência como as estrelas dos céus, e darei à tua descendência todas estas terras; e por meio dela serão benditas todas as nações da terra;
+Porquanto Abraão obedeceu à minha voz, e guardou o meu mandado, os meus preceitos, os meus estatutos, e as minhas leis.
+Assim habitou Isaque em Gerar.
+E semeou Isaque naquela mesma terra, e colheu naquele mesmo ano cem medidas, porque o Senhor o abençoava”.	Gênesis 26:1-6,12.\n
+
+Esse é o texto da profecia para 2016, mesmo que o contexto econômico do país pareça desfavorável, assim como parecia para Isaque, no deserto. Deus tem compromisso em fazer valer em sua vida, assim como fez valer na vida de Isaque. Contudo, é necessário, fé,  obediência e trabalho. Faça como Isaque, semeia, trabalhe no Projeto e certamente haverá colheita de cem por um neste ano.\n
+
+Semeei com fé, como fez o nosso Patriarca.\n
+
+Esse Plano de leitura irá lhe ensinar a guardar a Palavra do Eterno no coração. Levando-o a crer sem  duvidar, isto é, sem pecar contra Deus, conforme o Salmo 119.11
+"Escondi a tua palavra no meu coração, para eu não pecar contra ti".\n
+
+Em 2016 escolha caminhar debaixo da nuvem de obediência a DEUS. Aí, a colheita será abundante.
+
+    </string>
+    <string name="title_activity_contato">Contato</string>
+    <string name="text_activity_contato">Deseja nos conhecer melhor?
+    Siga-nos nas redes sociais e em nosso site!</string>
+   <string name="apresentation_text">Insira seus dados abaixo para efetuar login
+                             ou clique no botão para realizar cadastro.</string>
+
+
+</resources>
